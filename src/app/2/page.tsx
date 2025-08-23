@@ -30,7 +30,7 @@ export default function Home() {
             <li>Lightweight and beginner-friendly.</li>
             <li>Designed to make web pages interactive in the browser.</li>
           </ul>
-        <Image className="flex self-center pt-4" src="/fevsbe.jpg" width={500} height={400} />
+        <Image alt='frontend vs backend' className="flex self-center pt-4" src="/fevsbe.jpg" width={500} height={400} />
         <p className="text-white flex self-center">A very good depiction</p>
           <div className="mt-6">
             <h1 className="text-2xl md:text-5xl font-bold text-white mb-2">
