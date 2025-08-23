@@ -26,7 +26,7 @@ export default function Home() {
           <ul className="text-sm md:text-base text-white leading-relaxed list-disc pl-4">
             <li>Heart and Soul of application</li>
             <li>Handles data storage, logic, and communication with what users see.</li>
-            <li>buttons wouldn't work, posts wouldn't save, and and you won't be able to login.</li>
+            <li>buttons would not work, posts would not save, and and you would not be able to login.</li>
             <li>Lightweight and beginner-friendly.</li>
             <li>Designed to make web pages interactive in the browser.</li>
           </ul>

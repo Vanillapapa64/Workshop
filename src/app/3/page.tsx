@@ -24,7 +24,7 @@ export default function Home() {
             Which Language to choose??
           </h1>
           <h1 className="text-xl md:text-3xl font-semibold text-white mb-2">
-            Javascript's POV
+            Javascript POV
           </h1>
           <ul className="text-sm md:text-base text-white leading-relaxed list-disc pl-4">
             <li>Only need to learn one language</li>
@@ -42,7 +42,7 @@ export default function Home() {
             </h1>
             <ul className="text-sm md:text-base text-white leading-relaxed list-disc pl-4">
               <li>
-                Receive user's input in correct format, and send the response back to frontend in expected format too.
+                Receive user input in correct format, and send the response back to frontend in expected format too.
               </li>
               <li>
                 Correctly process the Inputs, Search databases, hitting other backends, handling the workflow of the data (how data flows through the code)

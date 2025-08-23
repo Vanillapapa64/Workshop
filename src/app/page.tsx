@@ -28,7 +28,7 @@ export default function JavaScriptWorkshopPage() {
 
       {/* What You'll Learn Section */}
       <div className="container mx-auto px-4 py-16 relative z-10">
-        <h3 className="text-3xl font-bold text-center text-white mb-12">What You'll Learn</h3>
+        <h3 className="text-3xl font-bold text-center text-white mb-12">What You will Learn</h3>
         <div className="grid md:grid-cols-3 gap-6">
           <Card className="bg-slate-800 border-slate-700">
             <CardHeader>
