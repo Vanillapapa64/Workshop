@@ -9,7 +9,7 @@ export default function Appbar() {
 
   return (
     <div className="bg-gray-900">
-      <header className="bg-gray-800 border-b border-gray-700 px-3 sm:px-4 py-3 flex items-center justify-between h-20 sm:h-28 md:h-32">
+      <header className="bg-gray-800 border-b z-50 border-gray-700 px-3 sm:px-4 py-3 flex items-center justify-between h-20 sm:h-28 md:h-32">
         <div className="w-full mx-auto flex items-center justify-between">
           {/* Title */}
           <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl text-yellow-300 pl-2 sm:pl-6">
@@ -31,7 +31,7 @@ export default function Appbar() {
             </button>
 
             {isDropdownOpen && (
-              <div className="absolute right-0 mt-2 w-40 sm:w-48 bg-gray-700 border border-gray-600 rounded-lg shadow-lg z-10">
+              <div className="absolute right-0 z-50 mt-2 w-40 sm:w-48 bg-gray-700 border border-gray-600 rounded-lg shadow-lg z-10">
                 <div className="py-1">
                   <button
                     onClick={() => router.push("/1")}

@@ -4,7 +4,7 @@ import { Code, Zap, BookOpen } from "lucide-react"
 export default function JavaScriptWorkshopPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-black relative overflow-hidden">
-      <div className="absolute inset-0 flex items-center justify-center opacity-30">
+      <div className="absolute inset-0 flex items-center pointer-events-none justify-center opacity-30">
         <div className="text-[40rem] font-bold select-none pointer-events-none" style={{ color: "#F7DF1E" }}>
           JS
         </div>
