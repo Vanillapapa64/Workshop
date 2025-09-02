@@ -33,7 +33,7 @@ export default function Home() {
             <li>Huge packages availability Via NPM</li>
             <li>Integrated easily in frontend frameworks like NEXTJS</li>
           </ul>
-          <a className="flex self-center pt-4" href="https://roadmap.sh/backend?fl=0"><Image alt="roadmap"  src="/ss.png" width={500} height={400} /></a>
+          <a className="flex self-center pt-4" target='_blank' href="https://roadmap.sh/backend?fl=0"><Image alt="roadmap"  src="/ss.png" width={500} height={400} /></a>
         
         <p className="text-white flex self-center">Click on Image for full roadmap</p>
           <div className="mt-6">
