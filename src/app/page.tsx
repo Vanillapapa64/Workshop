@@ -20,7 +20,7 @@ export default function JavaScriptWorkshopPage() {
             </h1>
             <h2 className="text-3xl md:text-5xl font-semibold text-gray-200">Workshop</h2>
             <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto">
-              Master modern JavaScript from fundamentals to advanced concepts in our intensive hands-on workshop
+              Get an insightful strategy and roadmap for mastering JavaScript and Backend through this session.
             </p>
           </div>
         </div>
