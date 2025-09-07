@@ -41,10 +41,10 @@ export default function Home() {
       <div className="w-full max-w-2xl space-y-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Ask your doubts from AI personalised for this workshop
+            Ask your doubts from AI personalized for this workshop
           </h1>
           <br></br>
-          <div className="underline cursor-pointer text-blue-300"><a href="https://chatgpt.com/share/68adfb5c-7348-800e-ad00-04aa4e007ac0">Or Click here, If the Chat ain't working(Token khatam hogye😭)</a></div>
+          <div className="underline cursor-pointer text-blue-300"><a href="https://chatgpt.com/share/68adfb5c-7348-800e-ad00-04aa4e007ac0">Or Click here, If the Chat not working(Token khatam hogye😭)</a></div>
         </div>
 
         <div className="space-y-4">
