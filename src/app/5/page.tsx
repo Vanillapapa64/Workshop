@@ -3,7 +3,6 @@ import { useState } from "react"
 import ReactMarkdown from "react-markdown"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { useRouter } from "next/navigation"
 
 export default function Home() {
   const [question, setQuestion] = useState("")
@@ -44,6 +43,8 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Ask your doubts from AI personalised for this workshop
           </h1>
+          <br></br>
+          <div className="underline cursor-pointer text-blue-300"><a href="https://chatgpt.com/share/68adfb5c-7348-800e-ad00-04aa4e007ac0">Or Click here, If the Chat ain't working(Token khatam hogye😭)</a></div>
         </div>
 
         <div className="space-y-4">

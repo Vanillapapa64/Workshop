@@ -1,18 +1,21 @@
 'use client'
-import { useState } from "react"
+import { useState,useEffect } from "react"
 import { ChevronDown } from "lucide-react"
-import { useRouter } from "next/navigation"
+import { useRouter,usePathname } from "next/navigation"
 
 export default function Appbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const router = useRouter()
-
+  const pathname = usePathname()
+  useEffect(() => {
+  setIsDropdownOpen(false)
+  }, [pathname])
   return (
     <div className="bg-gray-900">
       <header className="bg-gray-800 border-b z-50 border-gray-700 px-3 sm:px-4 py-3 flex items-center justify-between h-20 sm:h-28 md:h-32">
         <div className="w-full mx-auto flex items-center justify-between">
           {/* Title */}
-          <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl text-yellow-300 pl-2 sm:pl-6">
+          <h1 onClick={() => router.push("/")} className="text-white font-bold text-2xl sm:text-3xl md:text-4xl text-yellow-300 pl-2 sm:pl-6">
             Backend (JavaScript)
           </h1>
 
