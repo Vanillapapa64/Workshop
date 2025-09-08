@@ -1,9 +1,14 @@
 'use client'
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
+import { useEffect } from "react"
 import { useRouter } from "next/navigation"
 export default function Home() {
   const router=useRouter()
+  useEffect(() => {
+    // Call API route on every visit
+    fetch("/api/log-visit", { method: "POST" })
+  }, [])
   return (
     <main className="min-h-screen bg-gray-900 flex items-center justify-center p-4">
       <div className="w-full max-w-5xl relative flex items-center">

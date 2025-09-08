@@ -1,10 +1,10 @@
 'use client'
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRouter } from "next/navigation"
-
+let userVisits=0;
 export default function Home() {
   const router=useRouter()
-
+  userVisits++;
   return (
     <main className="min-h-screen bg-gray-900 flex items-center justify-center p-4">
       <div className="w-full max-w-3xl relative flex ">
